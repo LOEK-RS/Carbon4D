@@ -14,7 +14,11 @@
 #' 
 #' 
 
+# 
+# test2 <- function(x){
+#   print(x)
+# }
 
-test2 <- function(x){
-  print(x)
+test2 <- function(number) {
+  2 * number
 }
