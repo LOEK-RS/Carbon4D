@@ -1,4 +1,4 @@
-#' this is a test function
+#' this is a second test function
 #' @description this is a description
 #' @param dateiname2 whatever
 #' @return just a print
@@ -10,8 +10,11 @@
 #' test("hallo")
 #' }
 #' @export test
-#' @aliases test
+#' @aliases test2
+#' 
+#' 
 
-test <- function(dateiname2){
-  dat <- read.csv(dateiname2)
+
+test2 <- function(x){
+  print(x)
 }
