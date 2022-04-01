@@ -4,7 +4,7 @@
 \alias{test2}
 \title{this is a second test function}
 \usage{
-test2(x)
+test2(number)
 }
 \arguments{
 \item{dateiname2}{whatever}
