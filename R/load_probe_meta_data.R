@@ -1,4 +1,4 @@
-#' load carbon4d data from a local folder into r
+#' load probe meta data from a local folder into r
 #' @description
 #' @param path path to the local saved 
 #' @details 
