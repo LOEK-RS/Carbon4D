@@ -11,6 +11,7 @@
 #' }
 #' @export plotPlots
 #' @aliases plotPlots
+#' 
 plotPlots <- function(url){
   plots <- readr::read_csv(gsheet::construct_download_url(url))
   plots <- plots[plots$PlotID!="P0000",]
