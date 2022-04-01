@@ -7,10 +7,10 @@
 #' Maiken Baumberger
 #' @examples
 #' \dontrun{
-#' plot_plots()
+#' plot_monthly_porbe_plots()
 #' }
-#' @export plot_plots
-#' @aliases plot_plots
+#' @export plot_monthly_porbe_plots
+#' @aliases plot_monthly_porbe_plots
 
 
 

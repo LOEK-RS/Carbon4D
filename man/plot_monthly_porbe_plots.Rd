@@ -2,7 +2,6 @@
 % Please edit documentation in R/plot_plots.R
 \name{plot_monthly_porbe_plots}
 \alias{plot_monthly_porbe_plots}
-\alias{plot_plots}
 \title{mapview plot of the locations of the monthly porbe data}
 \usage{
 plot_monthly_porbe_plots(path)
@@ -18,7 +17,7 @@ mapview plot of the locations of the monthly porbe data
 }
 \examples{
 \dontrun{
-plot_plots()
+plot_monthly_porbe_plots()
 }
 }
 \author{
