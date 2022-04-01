@@ -1,7 +1,7 @@
 Package: Carbon4D
 Type: Package
 Title: Useful functions for the Carbon4D project
-Version: 0.1.0
+Version: 0.1.1
 Author: Maiken Baumberger, Hanna Meyer
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: The package contains useful functions for the Carbon4D project, especially for handling probe data of soil temperature and soil moisture.    
