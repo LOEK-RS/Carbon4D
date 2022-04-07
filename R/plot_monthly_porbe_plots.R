@@ -1,11 +1,9 @@
 #' mapview plot of the locations of the monthly porbe data
-#' @description
+#' @description mapview plot of the locations of the monthly porbe data
 #' @param path path to the local saved 
-#' @details 
 #' @return A mapview output
-#' @author
-#' Maiken Baumberger
-#' @examples
+#' @author Maiken Baumberger
+#' @examples plot_monthly_porbe_plots(path="C:/Users/maike/Desktop/Carbon4D/DownloadGitData/ProbeMetaData/ProbeMetaData.csv")
 #' \dontrun{
 #' plot_monthly_porbe_plots()
 #' }
