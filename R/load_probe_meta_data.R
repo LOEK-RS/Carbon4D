@@ -14,6 +14,6 @@
 
 
 load_probe_meta_data <- function(path){
-  ProbeMetaData = read.csv(path)
+  ProbeMetaData = read.csv(paste0(path,"/ProbeMetaData/ProbeMetaData.csv"))
   assign("ProbeMetaData", ProbeMetaData, envir = .GlobalEnv)
 }

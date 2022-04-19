@@ -14,12 +14,11 @@
 
 
 plot_monthly_porbe_plots <- function(path){
-  ProbeMetaData = read.csv(path)
+  ProbeMetaData = read.csv(paste0(path,"/ProbeMetaData/ProbeMetaData.csv"))
   assign("ProbeMetaData", ProbeMetaData, envir = .GlobalEnv)
   plots <- ProbeMetaData
   plots_sf <- sf::st_as_sf(plots,coords = c("lon","lat"), crs = 4326)
   mapview::mapview(plots_sf)
 }
-
 
 

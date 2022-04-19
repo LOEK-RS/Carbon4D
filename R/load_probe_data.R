@@ -14,9 +14,9 @@
 
 
 load_probe_data <- function(path){
-  csv_files = list.files(path = paste0(path,"/ProbeData"), pattern = ".csv$")
-  csv_names = stringr::str_remove(csv_files, ".csv")
-  csv_list = lapply(csv_files, read.csv)
+  csv_files = list.files(paste0(path,"/ProbeData"), pattern = ".csv",full.names = T)
+  csv_names = stringr::str_remove(list.files(path, pattern = ".csv"), ".csv")
+  csv_list = lapply(csv_files, read.csv) 
   names(csv_list) = csv_names
   assign("csv_list", csv_list, envir = .GlobalEnv)
 }
