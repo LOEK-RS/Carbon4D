@@ -3,7 +3,7 @@
 #' @param path path to the local saved 
 #' @return A mapview output
 #' @author Maiken Baumberger
-#' @examples plot_weekly_porbe_plots(path="C:/Users/maike/Desktop/Carbon4D/DownloadGitData/ProbeMetaData/ProbeMetaData.csv")
+#' @examples plot_weekly_porbe_plots(path="C:/Users/maike/Desktop/Carbon4D/DownloadGitData/ProbeMetaDataWeekly/ProbeMetaDataWeekly.csv")
 #' \dontrun{
 #' plot_weekly_porbe_plots()
 #' }
@@ -14,9 +14,9 @@
 
 
 plot_weekly_porbe_plots <- function(path){
-  ProbeMetaDataMonthly = read.csv(paste0(path,"/ProbeMetaDataMonthly/ProbeMetaDataMonthly.csv"))
-  assign("ProbeMetaDataMonthly", ProbeMetaDataMonthly, envir = .GlobalEnv)
-  plots <- ProbeMetaDataMonthly
+  ProbeMetaDataWeekly = read.csv(paste0(path,"/ProbeMetaDataWeekly/ProbeMetaDataWeekly.csv"))
+  assign("ProbeMetaDataWeekly", ProbeMetaDataWeekly, envir = .GlobalEnv)
+  plots <- ProbeMetaDataWeekly
   plots_sf <- sf::st_as_sf(plots,coords = c("lon","lat"), crs = 4326)
   mapview::mapview(plots_sf)
 }
