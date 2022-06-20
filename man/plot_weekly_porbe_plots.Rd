@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot_weekly_porbe_plots.R
 \name{plot_weekly_porbe_plots}
 \alias{plot_weekly_porbe_plots}
-\title{mapview plot of the locations of the monthly porbe data}
+\title{mapview plot of the locations of the weekly porbe data}
 \usage{
 plot_weekly_porbe_plots(path)
 }
@@ -16,7 +16,7 @@ A mapview output
 mapview plot of the locations of the weekly porbe data
 }
 \examples{
-plot_weekly_porbe_plots(path="C:/Users/maike/Desktop/Carbon4D/DownloadGitData/ProbeMetaDataWeekly/ProbeMetaDataWeekly.csv")
+plot_weekly_porbe_plots(path="C:/Users/maike/Desktop/Carbon4D/DownloadGitData/ProbeMetaDataWeekly/ProbeMetaDataWonthly.csv")
 \dontrun{
 plot_weekly_porbe_plots()
 }
