@@ -26,5 +26,5 @@ plot_all_porbe_plots <- function(path){
   plots_weekly <- sf::st_as_sf(plotsWeekly,coords = c("lon","lat"), crs = 4326)
   plots_monthly <- sf::st_as_sf(plotsMonthly,coords = c("lon","lat"), crs = 4326)
   plots_longterm <- sf::st_as_sf(plotsLongterm,coords = c("lon","lat"), crs = 4326)
-  mapview::mapview(plots_weekly,col.regions="red")+mapview(plots_monthly,col.regions="blue")+mapview(plots_longterm,col.regions="purple")
+  mapview::mapview(plots_weekly,col.regions="red")+mapview::mapview(plots_monthly,col.regions="blue")+mapview::mapview(plots_longterm,col.regions="purple")
 }
