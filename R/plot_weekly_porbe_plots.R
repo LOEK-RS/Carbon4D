@@ -1,9 +1,9 @@
-#' mapview plot of the locations of the monthly porbe data
+#' mapview plot of the locations of the weekly porbe data
 #' @description mapview plot of the locations of the weekly porbe data
 #' @param path path to the local saved 
 #' @return A mapview output
 #' @author Maiken Baumberger
-#' @examples plot_weekly_porbe_plots(path="C:/Users/maike/Desktop/Carbon4D/DownloadGitData/ProbeMetaDataWeekly/ProbeMetaDataWeekly.csv")
+#' @examples plot_weekly_porbe_plots(path="C:/Users/maike/Desktop/Carbon4D/DownloadGitData/ProbeMetaDataWeekly/ProbeMetaDataWonthly.csv")
 #' \dontrun{
 #' plot_weekly_porbe_plots()
 #' }
