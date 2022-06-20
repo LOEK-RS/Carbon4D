@@ -15,7 +15,7 @@
 
 
 get_carbon4d_data <- function(path){
-  if(length(dir()) ==0) {git2r::clone("https://github.com/MaikenBaumberger/Carbon4dData.git",path)}
+  if(length(dir(path))==0) {git2r::clone("https://github.com/MaikenBaumberger/Carbon4dData.git",path)}
   else {git2r::pull(path)}
 }
 
