@@ -9,9 +9,6 @@ load_longterm_probe_data(path)
 \arguments{
 \item{path}{path to the local saved}
 }
-\value{
-
-}
 \description{
 load longterm probe data from a local folder into r
 }

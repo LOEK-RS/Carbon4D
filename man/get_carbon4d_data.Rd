@@ -9,9 +9,6 @@ get_carbon4d_data(path)
 \arguments{
 \item{path}{path to the local saved}
 }
-\value{
-
-}
 \description{
 get carbon4d data from github to a local folder
 }

@@ -9,9 +9,6 @@ load_probe_meta_data_weekly(path)
 \arguments{
 \item{path}{path to the local saved}
 }
-\value{
-
-}
 \description{
 load probe meta data weekly from a local folder into r
 }
