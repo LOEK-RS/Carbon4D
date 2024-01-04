@@ -15,7 +15,7 @@
 probe <- "S15_014"
 path_row_data <- "C:/Users/maike/Desktop/Carbon4D/DatenbereinigungIrrimax/IrrimaxDataComplete"
 
-paste0(path_row_data,(sprintf("/%s.csv",Sonde)))
+paste0(path_row_data,(sprintf("/%s.csv",probe)))
 
 
 clean_probe_data <- function(path_row_data, 
@@ -64,7 +64,7 @@ clean_probe_data <- function(path_row_data,
   
   #select data set
   
-  TD <- read.csv(paste0(path_row_data,(sprintf("/%s.csv",Sonde))))
+  TD <- read.csv(paste0(path_row_data,(sprintf("/%s.csv",probe))))
   
   
   #fill missing columnes down to 120 cm with NA
@@ -839,7 +839,7 @@ clean_probe_data <- function(path_row_data,
   points(mean(d$M_org),(-5),col="blue",pch=19)
   
   
-  write.csv(d,(paste0(path_row_data,(sprintf("/%s_clean.csv",Sonde)))),row.names=FALSE)
+  write.csv(d,(paste0(path_row_data,(sprintf("/%s_clean.csv",probe)))),row.names=FALSE)
   
   
 }
