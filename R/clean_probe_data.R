@@ -1,10 +1,14 @@
 #' clean probe meta data 
-#' @description
-#' @param path path to the local saved 
+#' @description function to clean the probe data
+#' @param path_row_data loaction of soil probe data table
+#' @param probe name of probe/ file
+#' @param startdatetime start time
+#' @param enddatetime end time
+#' @param organic depth of organic layer in cm
+#' @param excess excess of probe in cm
 #' @details 
 #' @return 
-#' @author
-#' Maiken Baumberger
+#' @author Maiken Baumberger
 #' @examples
 #' \dontrun{
 #' clean_probe_data
