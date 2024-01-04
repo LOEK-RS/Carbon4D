@@ -13,12 +13,12 @@
 #' @aliases clean_probe_data
 
 
-path_row_data = "C:/Users/maike/Desktop/Carbon4D/Taunus"
-probe = "S03_015"
-startdatetime = "2023-12-14 00:00:00"
-enddatetime = "2024-01-03 00:00:00"
-organic = 0
-excess = 30
+# path_row_data = "C:/Users/maike/Desktop/Carbon4D/Taunus"
+# probe = "S03_015"
+# startdatetime = "2023-12-14 00:00:00"
+# enddatetime = "2024-01-03 00:00:00"
+# organic = 0
+# excess = 30
 
 # 
 # probe <- "S15_014"
