@@ -14,9 +14,9 @@
 
 
 taunus_plot_porbe_plots <- function(path){
-  TaunusProbeMetaData = read.csv(paste0(path,"/TaunusProbeMetaData/TaunusProbeMetaData"))
+  TaunusProbeMetaData = read.csv(paste0(path,"/TaunusProbeMetaData/TaunusProbeMetaData.csv"))
   assign("TaunusProbeMetaData", TaunusProbeMetaData, envir = .GlobalEnv)
   plots <- TaunusProbeMetaData
-  plots_sf <- sf::st_as_sf(plots,coords = c("lon","lat"), crs = 4326)
+  plots_sf <- sf::st_as_sf(plots,coords = c("lon","lat"), crs = 4326, na.rm=T)
   mapview::mapview(plots_sf)
 }
