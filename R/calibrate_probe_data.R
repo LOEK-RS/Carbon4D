@@ -35,6 +35,6 @@ calibrate_probe_data <- function(path_row_data,
   
   points(TD$M_15, col="red")
 
-  write.csv(d,(paste0(path_row_data,(sprintf("/%s_clean_loam.csv",probe)))),row.names=FALSE)
+  write.csv(TD,(paste0(path_row_data,(sprintf("/%s_clean_loam.csv",probe)))),row.names=FALSE)
   
 }
