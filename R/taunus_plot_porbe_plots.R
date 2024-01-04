@@ -18,5 +18,5 @@ taunus_plot_porbe_plots <- function(path){
   assign("TaunusProbeMetaData", TaunusProbeMetaData, envir = .GlobalEnv)
   plots <- TaunusProbeMetaData
   plots_sf <- sf::st_as_sf(plots,coords = c("lon","lat"), crs = 4326)
-  mapview::mapview(plots_sf$geometry)
+  mapview::mapview(plots_sf)
 }
