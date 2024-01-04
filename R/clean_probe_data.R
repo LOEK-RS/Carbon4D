@@ -12,10 +12,19 @@
 #' @export clean_probe_data
 #' @aliases clean_probe_data
 
-probe <- "S15_014"
-path_row_data <- "C:/Users/maike/Desktop/Carbon4D/DatenbereinigungIrrimax/IrrimaxDataComplete"
 
-paste0(path_row_data,(sprintf("/%s.csv",probe)))
+path_row_data = "C:/Users/maike/Desktop/Carbon4D/Taunus"
+probe = "S03_015"
+startdatetime = "2023-12-14 00:00:00"
+enddatetime = "2024-01-03 00:00:00"
+organic = 0
+excess = 30
+
+# 
+# probe <- "S15_014"
+# path_row_data <- "C:/Users/maike/Desktop/Carbon4D/DatenbereinigungIrrimax/IrrimaxDataComplete"
+# 
+# paste0(path_row_data,(sprintf("/%s.csv",probe)))
 
 
 clean_probe_data <- function(path_row_data, 
