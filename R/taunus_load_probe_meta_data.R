@@ -13,7 +13,7 @@
 #' @aliases taunus_load_probe_meta_data
 
 
-load_probe_meta_data_longterm <- function(path){
+taunus_load_probe_meta_data <- function(path){
   ProbeMetaDataLongterm = read.csv(paste0(path,"/TaunusProbeMetaData/TaunusProbeMetaData.csv"))
   assign("TaunusProbeMetaData", TaunusProbeMetaData, envir = .GlobalEnv)
 }
