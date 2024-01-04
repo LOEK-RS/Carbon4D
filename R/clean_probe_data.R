@@ -28,8 +28,8 @@ clean_probe_data <- function(path_row_data,
   # cat("\014")
   # rm(list = ls())
   # 
-  # library(dplyr)
-  # library(stringr)
+  library(dplyr)
+  library(stringr)
   # 
   # graphics.off()
   # 
