@@ -7,6 +7,7 @@
 clean_probe_data(
   path_row_data,
   probe,
+  probe_output_name = probe,
   startdatetime,
   enddatetime,
   organic,
