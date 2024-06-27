@@ -32,7 +32,8 @@
 
 
 clean_probe_data <- function(path_row_data, 
-                             probe, 
+                             probe,
+                             probe_output_name=probe,
                              startdatetime, 
                              enddatetime,
                              organic,
@@ -852,7 +853,7 @@ clean_probe_data <- function(path_row_data,
   points(mean(d$M_org),(-5),col="blue",pch=19)
   
   
-  write.csv(d,(paste0(path_row_data,(sprintf("/%s_clean.csv",probe)))),row.names=FALSE)
+  write.csv(d,(paste0(path_row_data,(sprintf("/%s_clean.csv",probe_output_name)))),row.names=FALSE)
   
   
 }
